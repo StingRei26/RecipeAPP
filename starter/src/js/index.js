@@ -1,6 +1,5 @@
-// Global app controller
-import num from './test'; 
-const x = 23; 
+// Search API URL - https://www.food2fork.com/api/search
+// API key bf329327176803459447269e4bb95237
 
 
-console.log(`I imported ${num} from another module called test.js! Variable x is ${x}`); 
+
