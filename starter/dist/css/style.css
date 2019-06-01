@@ -19,7 +19,7 @@ body {
   font-weight: 400;
   line-height: 1.6;
   color: #655A56;
-  background-image: linear-gradient(to right bottom, #FBDB89, #F48982);
+  background-image: linear-gradient(to right bottom, #83EAF1, #83EAF1);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: calc(100vh - 2 * 4vw); }
@@ -42,11 +42,11 @@ body {
       border-radius: 0; } }
 
 .btn, .btn-small, .btn-small:link, .btn-small:visited {
-  background-image: linear-gradient(to right bottom, #FBDB89, #F48982);
+  background-image: linear-gradient(to right bottom, #83EAF1, #83EAF1);
   border-radius: 10rem;
   border: none;
   text-transform: uppercase;
-  color: #fff;
+  color: black;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -124,7 +124,7 @@ body {
 .heading-2 {
   font-size: 1.8rem;
   font-weight: 600;
-  color: #F59A83;
+  color: #233329;
   text-transform: uppercase;
   margin-bottom: 2.5rem;
   text-align: center;
@@ -145,7 +145,7 @@ body {
   .loader svg {
     height: 5.5rem;
     width: 5.5rem;
-    fill: #F59A83;
+    fill: black;
     transform-origin: 44% 50%;
     animation: rotate 1.5s infinite linear; }
 
@@ -157,14 +157,16 @@ body {
 
 .header {
   grid-area: head;
-  background-color: #F9F5F3;
+  background-color: lightgray;
   display: flex;
   align-items: center;
-  justify-content: space-between; }
+  justify-content: space-between; 
+  width:101%;}
   .header__logo {
-    margin-left: 4rem;
-    height: 4.5rem;
-    display: block; }
+    margin-left: 3rem;
+    height: 6.5rem;
+    display: block; 
+    border-radius: 50%}
 
 .search {
   background-color: #fff;
@@ -206,7 +208,7 @@ body {
     visibility: visible;
     opacity: 1; }
   .likes__icon {
-    fill: #F59A83;
+    fill: black;
     height: 3.75rem;
     width: 3.75rem; }
   .likes__panel {
@@ -274,7 +276,7 @@ body {
   .results__name,
   .likes__name {
     font-size: 1.3rem;
-    color: #F59A83;
+    color: black;
     text-transform: uppercase;
     font-weight: 600;
     margin-bottom: .3rem; }
@@ -302,8 +304,8 @@ body {
     float: right; }
 
 .recipe {
-  background-color: #F9F5F3;
-  border-top: 1px solid #fff; }
+  background-color: white;
+ /* border-top: 1px solid lightgrey; */}
   .recipe__fig {
     height: 30rem;
     position: relative;
@@ -355,7 +357,7 @@ body {
   .recipe__info-icon {
     height: 2rem;
     width: 2rem;
-    fill: #F59A83;
+    fill: black;
     margin-right: 1rem; }
   .recipe__info-data {
     margin-right: .4rem;
@@ -411,8 +413,8 @@ body {
   .recipe__icon {
     height: 1.8rem;
     width: 1.8rem;
-    fill: #F59A83;
-    border: 1px solid #F59A83;
+    fill: black;
+    border: 1px solid black;
     border-radius: 50%;
     padding: 2px;
     margin-right: 1rem;
