@@ -19,7 +19,7 @@ body {
   font-weight: 400;
   line-height: 1.6;
   color: #655A56;
-  background-image: linear-gradient(to right bottom, #83EAF1, #83EAF1);
+  background-image: linear-gradient(to right bottom, #83EAF1,#D2CCC4);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: calc(100vh - 2 * 4vw); }
@@ -28,7 +28,7 @@ body {
   max-width: 120rem;
   margin: 4vw auto;
   background-color: #fff;
-  border-radius: 6px;
+  border-radius: 25px;
   overflow: hidden;
   box-shadow: 0 2rem 6rem 0.5rem rgba(101, 90, 86, 0.2);
   display: grid;
@@ -42,7 +42,7 @@ body {
       border-radius: 0; } }
 
 .btn, .btn-small, .btn-small:link, .btn-small:visited {
-  background-image: linear-gradient(to right bottom, #83EAF1, #83EAF1);
+  background-image: linear-gradient(to right bottom, #83EAF1,#D2CCC4);
   border-radius: 10rem;
   border: none;
   text-transform: uppercase;
@@ -76,10 +76,11 @@ body {
     fill: currentColor; }
 
 .btn-inline {
-  color: #F59A83;
+  color: black;
+  font-weight: bold;
   font-size: 1.2rem;
   border: none;
-  background-color: #F9F5F3;
+  background-image: linear-gradient(to right bottom, #83EAF1,#D2CCC4);;
   padding: .8rem 1.2rem;
   border-radius: 10rem;
   cursor: pointer;
@@ -94,8 +95,8 @@ body {
   .btn-inline span {
     margin: 0 .4rem; }
   .btn-inline:hover {
-    color: #F48982;
-    background-color: #F2EFEE; }
+    color: black;
+   /* background-color: lightgray; */}
   .btn-inline:focus {
     outline: none; }
 
@@ -108,15 +109,15 @@ body {
   .btn-tiny svg {
     height: 100%;
     width: 100%;
-    fill: #F59A83;
+    fill: black;
     transition: all .3s; }
   .btn-tiny:focus {
     outline: none; }
   .btn-tiny:hover svg {
-    fill: #F48982;
+    fill: black;
     transform: translateY(-1px); }
   .btn-tiny:active svg {
-    fill: #F48982;
+    fill: black;
     transform: translateY(0); }
   .btn-tiny:not(:last-child) {
     margin-right: .3rem; }
@@ -164,12 +165,14 @@ body {
   width:101%;}
   .header__logo {
     margin-left: 3rem;
+    border:1.5px solid lightblue;
     height: 6.5rem;
     display: block; 
     border-radius: 50%}
 
 .search {
   background-color: #fff;
+  border:1px solid aliceblue;
   border-radius: 10rem;
   display: flex;
   align-items: center;

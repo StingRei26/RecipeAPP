@@ -2,8 +2,10 @@
 // API key bf329327176803459447269e4bb95237
 
 import Search from './models/Search';
+import Recipe from './models/Recipe';
 import * as searchView from './views/searchView';
 import { elements, renderLoader, clearLoader} from './views/base';
+
 
 
 /** Gloabal state of the app
@@ -14,6 +16,10 @@ import { elements, renderLoader, clearLoader} from './views/base';
  */
 
 const state = {}; 
+
+/**
+ * SEARCH CONTROLER 
+ */
 
 const controlSearch = async () => {
     // 1) Get query from view
@@ -39,7 +45,23 @@ elements.searchForm.addEventListener('submit', e => {
     e.preventDefault(); 
     controlSearch(); 
 }); 
+
+elements.searchResPages.addEventListener('click', e => {
+const btn = e.target.closest('.btn-inline');
+if (btn) {
+    const goToPage = parseInt(btn.dataset.goto, 10);
+    searchView.clearResults();
+    searchView.renderResults(state.search.result, goToPage);
+    }
+});
+
+
+/**
+ * RECIPE CONTROLER 
+ */
  
+const  r = new Recipe(47746);
+r.getRecipe(); 
 
 
 
