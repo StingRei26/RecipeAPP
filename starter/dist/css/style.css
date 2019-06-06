@@ -267,7 +267,7 @@ body {
       position: absolute;
       top: 0;
       left: 0;
-      background-image: linear-gradient(to right bottom, #FBDB89, #F48982);
+      /*background-image: linear-gradient(to right bottom, #83EAF1,#D2CCC4);*/
       opacity: .4; }
     .results__fig img,
     .likes__fig img {
@@ -322,7 +322,7 @@ body {
       position: absolute;
       top: 0;
       left: 0;
-      background-image: linear-gradient(to right bottom, #FBDB89, #F48982);
+      /*background-image: linear-gradient(to right bottom, #83EAF1,#D2CCC4);*/
       opacity: .6; }
   .recipe__img {
     width: 100%;
@@ -336,7 +336,7 @@ body {
     transform: translate(-50%, 20%) skewY(-6deg);
     color: #fff;
     font-weight: 700;
-    font-size: 2.75rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
     width: 70%;
     line-height: 1.95;
@@ -345,7 +345,7 @@ body {
       -webkit-box-decoration-break: clone;
       box-decoration-break: clone;
       padding: 1.3rem 2rem;
-      background-image: linear-gradient(to right bottom, #FBDB89, #F48982); }
+      background-image: linear-gradient(to right bottom, #83EAF1,#D2CCC4); }
   .recipe__details {
     display: flex;
     align-items: center;
@@ -377,7 +377,7 @@ body {
     opacity: 1;
     transform: translateY(0); }
   .recipe__love {
-    background-image: linear-gradient(to right bottom, #FBDB89, #F48982);
+    background-image: linear-gradient(to right bottom, #83EAF1,#D2CCC4);
     border-radius: 50%;
     border: none;
     cursor: pointer;
