@@ -87,6 +87,10 @@ const controlRecipe = async () => {
         // Prepare UI for change
         recipeView.clearRecipe();
         renderLoader(elements.recipe);
+
+        // Highlight selected rearch item 
+        if (state.search) searchView.highlightSelect(id);
+    
         // Create new recipe object
         state.recipe = new Recipe(id);
 
