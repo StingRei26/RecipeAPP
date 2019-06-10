@@ -165,7 +165,7 @@ body {
   width:101%;}
   .header__logo {
     margin-left: 3rem;
-    border:1.5px solid lightblue;
+    border:1px solid black ;
     height: 6.5rem;
     display: block; 
     border-radius: 50%}
@@ -238,6 +238,9 @@ body {
   .likes__link:visited {
     display: flex;
     align-items: center;
+    margin-left: 9px;
+    margin-right: 9px;
+    margin-bottom: 9px;
     padding: 1.5rem 3rem;
     transition: all .3s;
     border-right: 1px solid #fff;
@@ -396,7 +399,7 @@ body {
     .recipe__love svg {
       height: 2.75rem;
       width: 2.75rem;
-      fill: #fff; }
+      fill: black; }
   .recipe__ingredients {
     padding: 4rem 5rem;
     font-size: 1.5rem;
